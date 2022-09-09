@@ -13,12 +13,13 @@ h1{
     font-family: 'Arimo', sans-serif;
 }
 h2{
-    color: #fff;
+    color: #000;
     font-size: 3.5rem;
     font-family: 'Arimo', sans-serif;
 }
 p{
-    color: #fff;
+    color: #000;
+    background-color:rgba(243, 240, 240, 0.533);
     font-size: 2.5rem;
     font-family: 'Arimo', sans-serif;
 }
@@ -165,29 +166,19 @@ p{
  .main{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: url(./images/Slika3.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    justify-content: center;  
     width: 100%;
-    /* opacity: 0.6; */
-    padding: 30px 0 0;
-    position: relative;
-
     
 }
-.main .aa{
-    position: absolute;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.527);
-    z-index: 2;
-}
-.main-container{
-    z-index: 3;
-}
+    .main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/Slika3.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center ;
+    }
 .main-content img{
     float: left;
     width: 200px;
@@ -195,35 +186,24 @@ p{
 }
 
 .main-container h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 30vh;
 }
-
-/* .main-container p{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0 60px;
-} */
+.main-container p{
+    color: #000;
+}
 .main-container h2{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px 0;
+    color: #000;
 }
-/* .main-img{
-    display: flex;
-    padding: 0px 30px;
-    margin-bottom: 20px;
-} */
 .main-content img{
     float: left;
     margin: 0  15px 0 0 ;
     width: 300px;
     height: 300px;
     cursor: pointer;
-
 }
 
 /*Mobile Responsive */
@@ -267,7 +247,7 @@ p{
     justify-content: flex-start;
     align-items: center;
     background-color: #59c6e8;
-    height: 90px;
+    height: 110px;
     z-index: 999;
     font-size: 1.2rem;
     top: 0;
@@ -330,12 +310,15 @@ p{
     display: flex;
  }
  .fa-phone-alt:before,
- .fa-instagram:before{
+ .fa-address-card:before,
+ .fa-at:before {
     color: #000;
  }
- .fa-facebook-f:before{
+ .fa-facebook-f{
     font-size: 1.5rem;
+    color: #000;
  }
+
  /* Mobile Responsive */
 @media screen and (max-width: 960px) {
     .footer{
@@ -355,4 +338,43 @@ p{
         display: flex;
         justify-content: center;
     }
-    
+}
+
+/* Home Section */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container img{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 700px;
+}
+.home-content{
+    padding: 50px;
+}
+.home-content1 h2,
+.home-content2 h2, 
+.home-content3 h2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.home-content p{
+    background-color: rgba(243, 240, 240, 0.533);
+}
+
+/* Nas cilj */
+
+    .carousel{
+      background-color: rgba(243, 240, 240, 0.533);
+    }
+ .carousel-item img{ 
+    height: 70vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;  
+}
+
