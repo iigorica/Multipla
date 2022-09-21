@@ -1,0 +1,19 @@
+/* Life MS */
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/zivotMS/podrska.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center ;
+    width: 100%; 
+    height: 70vh;
+}
+.lifeMs img{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border-radius: 40%;
+}

@@ -1,0 +1,11 @@
+/* Nas cilj */
+
+.carousel{
+    background-color: rgba(243, 240, 240, 0.533);
+  }
+.carousel-item img{ 
+  height: 70vh;
+  display: inline;
+  align-items: center;
+  justify-content: center;  
+}
